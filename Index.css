@@ -4,14 +4,14 @@
     box-sizing: border-box;
     background-color: #fff2e6;
     color: #1d0836;
-    align-items: center;
-    font-family: georgia;
 }
 body{
     width: 90%;
     min-width: 600px;
     max-width: 900px;
     margin: 20px auto;
+    align-items: center;
+    font-family: georgia;
 }
 main{
     width: 90%;
@@ -21,10 +21,10 @@ figure{
     padding: 4px;
     border: 2px solid #1d0836;
     background-color: lightgray;
-    height: 357px;
+    height: inherit;
 }
 img{
-    height: 330px;
+    height: 440px;
 }
 figcaption{
     font-size: 9px;
@@ -46,11 +46,10 @@ figcaption{
     border: 2px solid #1d0836;
     padding: 30px;
     margin: 10px;
-    width: 550px;
-    height: 357px;
 }
 .text-content.long{
     text-align: justify;
+    height: 470px;
 }
 .text-content.long h2{
     text-align: center;
